@@ -39,40 +39,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(138, 106);
+            this.label1.Location = new System.Drawing.Point(104, 86);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
+            this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tài Khoản";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(138, 152);
+            this.label2.Location = new System.Drawing.Point(104, 124);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 20);
+            this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mật khẩu";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(242, 106);
+            this.txtUserName.Location = new System.Drawing.Point(182, 86);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(187, 22);
+            this.txtUserName.Size = new System.Drawing.Size(141, 20);
             this.txtUserName.TabIndex = 1;
             // 
             // txtPassWord
             // 
-            this.txtPassWord.Location = new System.Drawing.Point(242, 149);
+            this.txtPassWord.Location = new System.Drawing.Point(182, 121);
+            this.txtPassWord.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassWord.Name = "txtPassWord";
-            this.txtPassWord.Size = new System.Drawing.Size(187, 22);
+            this.txtPassWord.Size = new System.Drawing.Size(141, 20);
             this.txtPassWord.TabIndex = 1;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(242, 216);
+            this.btnLogin.Location = new System.Drawing.Point(182, 176);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 36);
+            this.btnLogin.Size = new System.Drawing.Size(56, 29);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -80,9 +85,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(354, 216);
+            this.btnExit.Location = new System.Drawing.Point(266, 176);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 36);
+            this.btnExit.Size = new System.Drawing.Size(56, 29);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -90,17 +96,19 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
