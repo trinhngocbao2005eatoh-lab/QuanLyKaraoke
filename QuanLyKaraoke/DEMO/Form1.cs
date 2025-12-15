@@ -91,15 +91,5 @@ namespace DEMO
                 }
             }
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-        void ClearLogin()
-        {
-            txtUserName.Text = "";
-            txtPassWord.Text = "";
-        }
     }
 }
